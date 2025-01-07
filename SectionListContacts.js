@@ -1,3 +1,4 @@
+import { TextPropTypes } from 'deprecated-react-native-prop-types'
 import React, {
     Component,
     PureComponent
@@ -22,8 +23,8 @@ export default class SectionListModule extends Component {
         sectionHeaderHeight: PropTypes.number,//头部索引的高度
         letterViewStyle: PropTypes.object,//右边字母组件样式
         sectionItemViewStyle: PropTypes.object,//item组件样式
-        sectionItemTextStyle: Text.propTypes.style,//item文字样式
-        sectionHeaderTextStyle: Text.propTypes.style,//头部文字样式
+        sectionItemTextStyle: TextPropTypes.style,//item文字样式
+        sectionHeaderTextStyle: TextPropTypes.style,//头部文字样式
         scrollAnimation:PropTypes.bool,//是否启动动画
         showAlphabet:PropTypes.bool, //是否显示右边字母
         otherAlphabet:PropTypes.string, //其他的字符串
