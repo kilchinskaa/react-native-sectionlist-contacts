@@ -23,6 +23,7 @@
     "url": "https://github.com/cq0702/react-native-sectionlist-contacts/issues"
   },
   "dependencies": {
+    "deprecated-react-native-prop-types": "^5.0.0",
     "lodash": "^4.17.11"
   },
   "homepage": "https://github.com/cq0702/react-native-sectionlist-contacts#readme"
